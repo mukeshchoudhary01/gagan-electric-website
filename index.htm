@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Gagan Electric — Home</title>
+  <meta name="description" content="Gagan Electric — Quality Electrical Products and Services"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:0;line-height:1.5}
+    .hero{background:#f7f7f7;padding:30px;text-align:center}
+    .container{max-width:900px;margin:20px auto;padding:0 15px}
+    .products{display:flex;flex-wrap:wrap;gap:12px}
+    .card{flex:1 1 200px;border:1px solid #ddd;padding:12px;border-radius:6px}
+    .btn{display:inline-block;padding:8px 12px;border-radius:6px;text-decoration:none;border:0;background:#007bff;color:#fff}
+    footer{text-align:center;padding:14px;color:#666}
+    @media(max-width:600px){.products{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>Gagan Electric</h1>
+    <p>Quality Electrical Products • Reliable Service • Affordable Prices</p>
+    <a class="btn" href="https://wa.me/919876543210?text=Hello!%20I%20want%20to%20order%20from%20Gagan%20Electric">Order on WhatsApp</a>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Our Products</h2>
+      <div class="products">
+        <div class="card">
+          <h3>LED Bulbs</h3>
+          <p>Energy-efficient and long-lasting</p>
+          <p>₹99</p>
+          <a class="btn" href="https://wa.me/919876543210?text=I%20want%20to%20order%20LED%20Bulbs">Order Now</a>
+        </div>
+        <div class="card">
+          <h3>Wiring Cables</h3>
+          <p>High-quality and durable</p>
+          <p>₹499 / bundle</p>
+          <a class="btn" href="https://wa.me/919876543210?text=I%20want%20to%20order%20Wiring%20Cables">Order Now</a>
+        </div>
+        <div class="card">
+          <h3>Switches & Boards</h3>
+          <p>Modern designs, safe and reliable</p>
+          <p>Starting ₹150</p>
+          <a class="btn" href="https://wa.me/919876543210?text=I%20want%20to%20order%20Switches%20and%20Boards">Order Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <p>📍 Gagan Electric, Your City, Street Name, Pin Code</p>
+      <p>📞 Phone: <a href="tel:+919156882973">+91 91568 82973</a></p>
+      <p>💬 WhatsApp: <a href="https://wa.me/919876543210">Click Here</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Gagan Electric — Powered with ⚡ Energy  
+    <script>document.getElementById('year').innerText=new Date().getFullYear()</script>
+  </footer>
+</body>
+</html>
